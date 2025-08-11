@@ -1,1 +1,19 @@
-itesting is my role
+A Jenkins introduction presentation typically covers the following key points:
+1. What is Jenkins? 
+Jenkins is an open-source automation server written in Java.
+It is primarily used for Continuous Integration (CI) and Continuous Delivery (CD) in software development.
+2. Why Jenkins? (Benefits of Continuous Integration)
+Early Bug Detection:
+Integrates code changes frequently, allowing for quick identification and resolution of integration issues.
+Improved Code Quality:
+Automated testing and feedback loops help maintain higher code quality.
+Faster Release Cycles:
+Automates build, test, and deployment processes, enabling more frequent and reliable software releases.
+Reduced Manual Effort:
+Automates repetitive tasks, freeing up developers to focus on core development.
+3. Key Features of Jenkins:
+Open Source: Free to use and boasts a large, active community.
+Extensible: Highly extensible through a vast ecosystem of plugins (over 1000 available) for various integrations (e.g., SCM, build tools, testing frameworks, notification systems).
+Easy to Install and Configure: Straightforward installation process and user-friendly interface.
+Distributed Builds: Supports distributed builds across multiple nodes for scalability and efficiency.
+Pipeline as Code: Allows defining build pipelines in code (e.g., Jenkinsfile) for version control and reusability.
