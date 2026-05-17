@@ -1,0 +1,37 @@
+// Main class name must match the filename (SampleProgram.java)
+public class SampleProgram {
+
+    // Main method: The entry point of any Java program
+    public static void main(String[] args) {
+        // Create an object of the Car class
+        Car myCar = new Car("Toyota", 2023);
+
+        // Call methods on the object
+        myCar.displayDetails();
+        myCar.startEngine();
+    }
+}
+
+// A secondary class representing a real-world object
+class Car {
+    // Attributes (Variables)
+    private String brand;
+    private int year;
+
+    // Constructor to initialize attributes
+    public Car(String carBrand, int carYear) {
+        this.brand = carBrand;
+        this.year = carYear;
+    }
+
+    // Method to display car information
+    public void displayDetails() {
+        System.out.println("Car Brand: " + brand);
+        System.out.println("Model Year: " + year);
+    }
+
+    // Method simulating an action
+    public void startEngine() {
+        System.out.println("The " + brand + "'s engine is now running.");
+    }
+}
